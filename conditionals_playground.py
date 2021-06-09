@@ -116,11 +116,11 @@
 # else:
 #     print("Incorrect!")
 
-# Question 6 
+# # Question 6 
 
-email = input("Enter your email address: ")
+# email = input("Enter your email address: ")
 
-if email == "hayley@test.com" or email == "hayley.test@com":
-        print("Valid email address.")
-else:
-    print("Invalid email address.")
+# if email == "hayley@test.com" or email == "hayley.test@com":
+#         print("Valid email address.")
+# else:
+#     print("Invalid email address.")
