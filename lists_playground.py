@@ -45,10 +45,10 @@
 # print(chilli_wishlist)
 
 # # .pop = removes items
-# # if you have .pop() with blank insode the brackets it will delete the last item on the list
+# # if you have .pop() with blank inside the brackets it will delete the last item on the list
 # print(chilli_wishlist.pop())
 # print(chilli_wishlist)
-# # if you wan to remove an item at a specific position put the position number in the brackets
+# # if you want to remove an item at a specific position put the position number in the brackets
 # print(chilli_wishlist(2))
 # print(chilli_wishlist)
 # # you can also remove a specific item by putting the name of the item in brackets
@@ -158,3 +158,14 @@ c = [7, 8, 9]
 d = []
 e = []
 
+d.append(a)
+d.append(b)
+d.append(c)
+
+print(d)
+
+e.extend(a)
+e.extend(b)
+e.extend(c)
+
+print(e)

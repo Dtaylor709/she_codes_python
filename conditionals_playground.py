@@ -34,7 +34,7 @@
 # print("cats")    
 
 # # 'else' must always follow an if statement. you cannot hve else by itself. instead you can use 'if not [value]'
-# # 'elif' = elseif so if the first if isn't true then the program checks the next statement which would be an elif. There is no limit to the number of elif you can have
+# # 'elif' = (elseif) so if the first if isn't true then the program checks the next statement which would be an elif. There is no limit to the number of elif you can have
 
 # temp = 16
 # wind_chill = 4
@@ -46,7 +46,7 @@
 # else:
 #     print("Wow, what a lovely day")
 
-# # you can have If inside each other. There is no limit but good practice is to only repat IF 3 times.
+# # you can have If inside each other. There is no limit but good practice is to only repeat IF 3 times.
 
 # if temp < 16:
 #     if is_raining:

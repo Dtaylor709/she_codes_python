@@ -46,9 +46,42 @@
 
 # guess = ""
 # while guess != "a":
-#     guess = input("Guess a letter")
+# #     guess = input("Guess a letter")
 
-counter = 0
-while counter <= 5:
-    print(counter)
-    counter = counter + 1
+# counter = 0
+# while counter <= 5:
+#     print(counter)
+# #     counter = counter + 1
+
+# EXERCISE: FOR LOOPS
+
+# QUESTION 1A
+
+# number = input("Enter a number: ")
+# for list in range (1,4):
+#     answer = list * int(number) 
+#     print(f"{number} * {list} = {answer}")
+
+# # QUESTION 1B
+
+# number = input("Enter a number: ")
+# for list in range (1,8):
+#     answer = list * int(number) 
+#     print(f"{number} * {list} = {answer}")
+
+# QUESTION 2
+
+number = int(input("Enter a number: "))
+sum = 0
+upto = (1,n)
+for item in range [1, int(number)]:
+    answer = item + int(number)
+    print(f"{answer}")
+
+# Ask the user for a number. Use a for loop to sum from 0 to that number
+# addition = int(input("Enter a number."))
+# sum = 0
+# for i in range(addition + 1):
+#   sum = sum + i
+#   i = i + 1
+# print("Sum is ", sum)
