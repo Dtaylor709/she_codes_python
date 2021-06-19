@@ -72,21 +72,102 @@ import csv
 # ● blue
 
 
-colours = []
+# colours = []
 
-with open("colours_20.csv", encoding="utf-8") as csv_file:
-    reader = csv.reader(csv_file)
-    next(reader,None) 
-    # skips the header
-    for line in reader:
-        # print(line)
-        colours.append(line)
-for colour_group in colours:
-    if colour_group [4]== red:
-        print(f"Red:{
+# with open("colours_20.csv", encoding="utf-8") as csv_file:
+#     reader = csv.reader(csv_file)
+#     next(reader,None) 
+#     # skips the header
+#     for line in reader:
+#         # print(line)
+#         colours.append(line)
+# # for colour_group in colours:
+#     # print(colour_group)
+
+# red_count = 0
+# green_count = 0
+# blue_count = 0
+# yellow_count = 0
+# for colour_group in colours:
+#     # print(colour_group [4])
+#     if "red" in colour_group [4]:
+#         red_count = red_count + 1
+        
+#     if "green" in colour_group [4]:
+#         green_count = green_count + 1
+       
+#     if "blue" in colour_group [4]:
+#         blue_count = blue_count + 1
+       
+#     if "yellow" in colour_group [4]:
+#         yellow_count = yellow_count + 1
+        
+# print(f"Red = {red_count}")    
+# print(f"Green = {green_count}")
+# print(f"Blue = {blue_count}")
+# print(f"Yellow = {yellow_count}")    
 
 
 
-# Green: 0
-# Blue: 0
-# Yellow: 12
+# colours = []
+
+# with open("colours_213.csv", encoding="utf-8") as csv_file:
+#     reader = csv.reader(csv_file)
+#     next(reader,None) 
+#     # skips the header
+#     for line in reader:
+#         # print(line)
+#         colours.append(line)
+# # for colour_group in colours:
+#     # print(colour_group)
+
+# red_count = 0
+# green_count = 0
+# blue_count = 0
+# yellow_count = 0
+# for colour_group in colours:
+#     if "red" in colour_group [4]:
+#         red_count = red_count + 1
+        
+#     if "green" in colour_group [4]:
+#         green_count = green_count + 1
+       
+#     if "blue" in colour_group [4]:
+#         blue_count = blue_count + 1
+       
+#     if "yellow" in colour_group [4]:
+#         yellow_count = yellow_count + 1
+    
+# print(f"Red = {red_count}")
+# print(f"Green = {green_count}")
+# print(f"Blue = {blue_count}")
+# print(f"Yellow = {yellow_count}")
+
+# Q5) galaxies.py contains data about 82 different galaxies and their velocities (km/sec). Using this data, output
+# the galaxy with the slowest velocity, and the galaxy with the highest velocity
+
+# galaxies = []
+
+
+
+# with open("galaxies.csv", encoding="utf-8") as csv_file:
+#     reader = csv.reader(csv_file)
+#     next(reader,None) 
+#     # skips the header
+#     for line in reader:
+#         # print(line)
+#         galaxies.append(line)
+
+# maximum_galaxy = []
+# minimum_galaxy = []
+
+# for galaxy in galaxies:
+#     if not maximum_galaxy or int(galaxy[1]) > int(maximum_galaxy[1]):
+#         maximum_galaxy = galaxy 
+            
+#     if not minimum_galaxy or int(galaxy[1]) < int(minimum_galaxy[1]):
+#         minimum_galaxy = galaxy     
+
+
+# print(f"Galaxy {minimum_galaxy[0]} has the min velocity of {minimum_galaxy[1]} km/sec.")
+# print(f"Galaxy {maximum_galaxy[0]} has the max velocity of {maximum_galaxy[1]} km/sec.")

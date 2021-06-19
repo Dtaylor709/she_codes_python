@@ -9,16 +9,16 @@
 
 # QUESTION 1
 
-# # number = input("Enter a number: ")
-# # number2 = input(f"Enter another number: ")
-# # Answer = float(number) + float(number2)
-# # print(f"The answer is {Answer}")
+# number = input("Enter a number: ")
+# number2 = input("Enter another number: ")
+# Answer = float(number) + float(number2)
+# print(f"The answer is {Answer}")
 
 # QUESTION 2
-# # number = input("Enter a number: ")
-# # number2 = input(f"Enter another number: ")
-# # Answer = float(number) * float(number2)
-# # print(f"The answer is {Answer}")
+# number = input("Enter a number: ")
+# number2 = input(f"Enter another number: ")
+# Answer = float(number) * float(number2)
+# print(f"The answer is {Answer}")
 
 # QUESTION 3
 
